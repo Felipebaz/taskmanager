@@ -1,11 +1,15 @@
+def print_menu():
+    print("\n -- Intelligent Task Manager --")
+    print("1. Add Task")
+    print("2. List Tasks")
+    print("3. Complete Task")
+    print("4. Delete Task")
+    print("5. Exit")
+    
 def main ():
     while True:
-        print("\n -- Intelligent Task Manager --")
-        print("1. Add Task")
-        print("2. List Tasks")
-        print("3. Complete Task")
-        print("4. Delete Task")
-        print("5. Exit")
+           
+        print_menu()
 
         choice = input("Enter your choice: ")
 
